@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+button {
+	background: transparent;
+	border: 0;
+    cursor:pointer;
+    &:focus{
+        outline: none;
+    }
+}
+button, input {
+    border-radius: 0;
+}
+.btn {
+    width: auto;
+    height: calc(1.5em + .75rem + 4px);
+    padding: .375rem .75rem;
+    border-color: none;
+    border-radius: 0;
+    &:focus{
+        outline: none;
+    }
+}
+.btn-primary {
+    color: $white-base;
+    background: $brand-secondary;
+    border: none;
+    border-radius: 0;
+    @include on-event {
+        color: $white-base;
+        background-color: $brand-tertiary;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    color: $white-base;
+    background-color: $brand-secondary;
+    border: none;
+}
+
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    img {
+        height: 75px
+    }
+}

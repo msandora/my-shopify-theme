@@ -1,9 +1,33 @@
-// Bootstrap !
+// Bootstrap
+@charset 'UTF-8';
 @import '~bootstrap/scss/bootstrap';
-
 @import '~slick-carousel/slick/slick.css';
-
 @import './mini-cart.scss';
-
 @import "~noty/src/noty.scss";
 @import "~noty/src/themes/mint.scss";
+
+
+@import 'abstracts/variables', 
+        'abstracts/functions', 
+        'abstracts/mixins';
+
+@import 'vendors/normalize';
+
+@import 'base/base',
+        // 'base/fonts',
+        'base/typography',
+        'base/helpers';
+
+@import 'layout/header',
+        'layout/footer';
+
+@import 'components/buttons',
+        'components/reviews',
+        'components/carousel';
+
+@import 'pages/home',
+        'pages/product', 
+        'pages/blog';
+
+@import 'themes/default';
+
