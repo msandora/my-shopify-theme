@@ -1,4 +1,4 @@
-
+//import "slick-carousel"; // Basic import
 let slick = require('slick-carousel');
 
 $(".product-slider").slick({

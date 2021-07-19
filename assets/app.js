@@ -43743,6 +43743,7 @@ $('body').on("click", ".dropdown-menu", function (e) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+//import "slick-carousel"; // Basic import
 var slick = __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
 
 $(".product-slider").slick({
@@ -43815,8 +43816,8 @@ var store = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\marks\OneDrive\Desktop\My Projects\Shopify\my-shopify-theme\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\marks\OneDrive\Desktop\My Projects\Shopify\my-shopify-theme\src\scss\app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! C:\Users\marks\OneDrive\Desktop\My Projects\Shopify\themes\my-shopify-theme\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\marks\OneDrive\Desktop\My Projects\Shopify\themes\my-shopify-theme\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })

@@ -13,7 +13,9 @@ html {
 /**
  * Basic styles for wrapper elements
  */
-
+main {
+  padding-bottom: 100px;
+}
 body {
 	margin: 0px;
 	background: $white-base;

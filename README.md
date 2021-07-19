@@ -22,3 +22,9 @@ Or, watch this video for practical work [here](https://youtu.be/hYr0oIGVS-I)
 Happy development :) 
 
 Thanks. 
+
+Note: Left off on chapter 40
+
+run at the same time:
+npm run watch
+theme watch

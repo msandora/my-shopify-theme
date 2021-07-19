@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
   {%- endif -%}
 
-  <!-- Marks Test comment -->
+  <!-- Welcome -->
 
   {%- capture seo_title -%}
     {{ page_title }}
@@ -71,7 +71,6 @@
   {% section 'footer' %}
 
   {{ 'app.js' | asset_url | script_tag }}
-
-
+  
 </body>
 </html>
